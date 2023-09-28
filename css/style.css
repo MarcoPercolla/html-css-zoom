@@ -46,12 +46,12 @@ main {
 .room {
     background-color: black;
     width: 90%;
-    height:70vh ;
+    height:71vh ;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    overflow: auto;
+    overflow:auto ;
     
 }
 
@@ -59,7 +59,7 @@ main {
 
     height: 108px;
     width: 180px;
-    margin-top: 7px;
+    margin-bottom: 7px;
     
 }
 
