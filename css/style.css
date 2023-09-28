@@ -21,7 +21,7 @@ main {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 70px;
+    height: 10px;
     
 }
 
@@ -45,13 +45,12 @@ main {
 
 .room {
     background-color: black;
-    padding-top: 5px;
     width: 90%;
     height:70vh ;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     overflow: auto;
     
 }
@@ -60,7 +59,7 @@ main {
 
     height: 108px;
     width: 180px;
-    margin:1px
+    margin-top: 7px;
     
 }
 
