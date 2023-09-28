@@ -10,7 +10,8 @@ main {
     height: calc(100vh - 70px);
     display: flex;
     flex-direction: column;
-    background-color: red;
+    background-color: black;
+    justify-content: space-around;
     
 
 }
@@ -43,10 +44,10 @@ main {
 }
 
 .room {
-    background-color: aquamarine;
+    background-color: black;
     padding-top: 5px;
     width: 90%;
-    height:calc(100% - 150px) ;
+    height:70vh ;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -69,10 +70,12 @@ main {
 
 .middle-icons {
     position:absolute;
-    bottom:10px;
+    padding:3px;
+    bottom:3px;
     left:0;
     display: flex;
     color:white;
+    background-color: rgba(32, 32, 32, 0.764);
 }
 
 .video {
@@ -82,26 +85,30 @@ main {
 footer {
     display: flex;
     justify-content: space-between;
-    background-color: goldenrod;
+    background-color: rgb(26, 26, 26);
     height: 70px;
     align-items: center;
     position: fixed;
     bottom:0;
     left: 0;
     width: 100%;
+    margin-top: 5px;
     
 }
 
 .bottomleft {
     display: flex;
     padding-left: 15px;
+    align-items: center;
+    color: white;
 }
 
 .bottom-icons {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin:5px
+    margin:5px;
+    color:white;
 
 }
 
@@ -109,15 +116,20 @@ footer {
     align-self: center;
     display: flex;
     justify-content: center;
+    align-items: center;
+    color: white;
 
 }
 
 .bottomright {
     padding:0 20px;
-    background-color: #222222a2;
+    background-color: #ffffff41;
     display: flex;
     height: 100%;
     align-items: center;
-    
+    color:red;
+}
 
+.green {
+    color:green
 }
